@@ -1,0 +1,16 @@
+trainer:
+  max_epochs: 1000
+  accelerator: 'gpu'
+  devices: 1
+  default_root_dir: 'experiments/evaluate/'
+  check_val_every_n_epoch: 10
+  callbacks:
+    class_path: lightning.pytorch.callbacks.ModelCheckpoint
+    init_args:
+      filename: 'best'
+      monitor: 'val_R2Score'
+      save_top_k: 1
+      mode: 'max'
+
+bias_init: True
+index_col: 'cifid'

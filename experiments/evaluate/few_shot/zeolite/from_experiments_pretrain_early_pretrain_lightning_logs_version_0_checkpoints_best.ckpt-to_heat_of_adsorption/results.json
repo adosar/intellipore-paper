@@ -1,0 +1,144 @@
+{
+    "50": {
+        "0": {
+            "test_R2Score": 0.8812205195426941,
+            "test_MeanAbsoluteError": 0.7833753824234009
+        },
+        "1": {
+            "test_R2Score": 0.8522751331329346,
+            "test_MeanAbsoluteError": 0.8213649988174438
+        },
+        "2": {
+            "test_R2Score": 0.8714441061019897,
+            "test_MeanAbsoluteError": 0.776080310344696
+        },
+        "3": {
+            "test_R2Score": 0.8708316087722778,
+            "test_MeanAbsoluteError": 0.7781096696853638
+        },
+        "4": {
+            "test_R2Score": 0.8810341358184814,
+            "test_MeanAbsoluteError": 0.8067367672920227
+        },
+        "5": {
+            "test_R2Score": 0.8611064553260803,
+            "test_MeanAbsoluteError": 0.8591780066490173
+        },
+        "6": {
+            "test_R2Score": 0.8728365898132324,
+            "test_MeanAbsoluteError": 0.787791907787323
+        },
+        "7": {
+            "test_R2Score": 0.8598217964172363,
+            "test_MeanAbsoluteError": 0.8654008507728577
+        },
+        "8": {
+            "test_R2Score": 0.8756449818611145,
+            "test_MeanAbsoluteError": 0.7745154500007629
+        },
+        "9": {
+            "test_R2Score": 0.8632175922393799,
+            "test_MeanAbsoluteError": 0.8030285835266113
+        }
+    },
+    "100": {
+        "0": {
+            "test_R2Score": 0.8834326863288879,
+            "test_MeanAbsoluteError": 0.7333551049232483
+        },
+        "1": {
+            "test_R2Score": 0.8853895664215088,
+            "test_MeanAbsoluteError": 0.7556713819503784
+        },
+        "2": {
+            "test_R2Score": 0.8997055292129517,
+            "test_MeanAbsoluteError": 0.6819537281990051
+        },
+        "3": {
+            "test_R2Score": 0.8932808041572571,
+            "test_MeanAbsoluteError": 0.7308928966522217
+        },
+        "4": {
+            "test_R2Score": 0.8888867497444153,
+            "test_MeanAbsoluteError": 0.7155894637107849
+        },
+        "5": {
+            "test_R2Score": 0.8704372644424438,
+            "test_MeanAbsoluteError": 0.7507800459861755
+        },
+        "6": {
+            "test_R2Score": 0.8975124359130859,
+            "test_MeanAbsoluteError": 0.6971457004547119
+        },
+        "7": {
+            "test_R2Score": 0.8928316831588745,
+            "test_MeanAbsoluteError": 0.7323811054229736
+        },
+        "8": {
+            "test_R2Score": 0.8908581733703613,
+            "test_MeanAbsoluteError": 0.7112109661102295
+        },
+        "9": {
+            "test_R2Score": 0.8656723499298096,
+            "test_MeanAbsoluteError": 0.837052583694458
+        }
+    },
+    "300": {
+        "0": {
+            "test_R2Score": 0.9219334125518799,
+            "test_MeanAbsoluteError": 0.5812665820121765
+        },
+        "1": {
+            "test_R2Score": 0.9233587384223938,
+            "test_MeanAbsoluteError": 0.5845012664794922
+        },
+        "2": {
+            "test_R2Score": 0.9392876029014587,
+            "test_MeanAbsoluteError": 0.5335260629653931
+        },
+        "3": {
+            "test_R2Score": 0.9238252639770508,
+            "test_MeanAbsoluteError": 0.5856624841690063
+        },
+        "4": {
+            "test_R2Score": 0.9314590692520142,
+            "test_MeanAbsoluteError": 0.5537943243980408
+        }
+    },
+    "500": {
+        "0": {
+            "test_R2Score": 0.9409794211387634,
+            "test_MeanAbsoluteError": 0.4973311424255371
+        },
+        "1": {
+            "test_R2Score": 0.94291752576828,
+            "test_MeanAbsoluteError": 0.5154175162315369
+        },
+        "2": {
+            "test_R2Score": 0.9267022609710693,
+            "test_MeanAbsoluteError": 0.5504166483879089
+        },
+        "3": {
+            "test_R2Score": 0.9365737438201904,
+            "test_MeanAbsoluteError": 0.5265170335769653
+        },
+        "4": {
+            "test_R2Score": 0.9397233128547668,
+            "test_MeanAbsoluteError": 0.5112811326980591
+        }
+    },
+    "1000": {
+        "0": {
+            "test_R2Score": 0.957281768321991,
+            "test_MeanAbsoluteError": 0.43205806612968445
+        },
+        "1": {
+            "test_R2Score": 0.9542024731636047,
+            "test_MeanAbsoluteError": 0.4418697655200958
+        },
+        "2": {
+            "test_R2Score": 0.9592103958129883,
+            "test_MeanAbsoluteError": 0.420935720205307
+        }
+    }
+}

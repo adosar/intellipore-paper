@@ -1,0 +1,959 @@
+\subsection{hMOF dataset}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_H2-77-2_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_H2-77-2_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{H$_2$ uptake at 77 K and 2 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.906 & 0.933 & 0.947 & 0.970 & 0.978 \\
+Fine-tuning & 0.950 & 0.965 & 0.973 & 0.980 & 0.983 \\
+\midrule
+Scratch training & 1.827 & 1.565 & 1.272 & 1.030 & 0.842 \\
+Fine-tuning & 1.299 & 1.063 & 0.963 & 0.804 & 0.754 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_CO2-298-2.5_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_CO2-298-2.5_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CO$_2$ uptake at 298 K and 2.5 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.539 & 0.597 & 0.710 & 0.726 & 0.751 \\
+Fine-tuning & 0.867 & 0.887 & 0.913 & 0.925 & 0.929 \\
+\midrule
+Scratch training & 1.335 & 1.239 & 1.035 & 1.008 & 0.946 \\
+Fine-tuning & 0.705 & 0.634 & 0.547 & 0.510 & 0.490 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_CH4-298-2.5_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_CH4-298-2.5_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ uptake at 298 K and 2.5 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.527 & 0.622 & 0.760 & 0.796 & 0.833 \\
+Fine-tuning & 0.913 & 0.932 & 0.945 & 0.951 & 0.952 \\
+\midrule
+Scratch training & 0.504 & 0.451 & 0.356 & 0.329 & 0.286 \\
+Fine-tuning & 0.194 & 0.170 & 0.149 & 0.142 & 0.139 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_N2-298-0.9_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_N2-298-0.9_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{N$_2$ uptake at 298 K and 0.9 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.269 & 0.483 & 0.616 & 0.692 & 0.762 \\
+Fine-tuning & 0.846 & 0.874 & 0.891 & 0.896 & 0.908 \\
+\midrule
+Scratch training & 0.084 & 0.073 & 0.060 & 0.052 & 0.046 \\
+Fine-tuning & 0.033 & 0.030 & 0.028 & 0.026 & 0.025 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_Xe-273-10_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_Xe-273-10_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{Xe binary uptake at 273 K and 10 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.648 & 0.699 & 0.806 & 0.835 & 0.868 \\
+Fine-tuning & 0.893 & 0.908 & 0.928 & 0.934 & 0.938 \\
+\midrule
+Scratch training & 1.024 & 0.947 & 0.749 & 0.698 & 0.614 \\
+Fine-tuning & 0.548 & 0.495 & 0.428 & 0.407 & 0.388 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_Kr-273-10_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmof_Kr-273-10_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{Kr binary uptake at 273 K and 10 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.583 & 0.636 & 0.734 & 0.779 & 0.802 \\
+Fine-tuning & 0.802 & 0.855 & 0.878 & 0.886 & 0.888 \\
+\midrule
+Scratch training & 0.847 & 0.805 & 0.678 & 0.615 & 0.571 \\
+Fine-tuning & 0.552 & 0.463 & 0.404 & 0.385 & 0.383 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmofheat_CO2-298K-2.5bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmofheat_CO2-298K-2.5bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CO$_2$ heat of adsorption at 298 K and 2.5 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.827 & 0.829 & 0.866 & 0.869 & 0.866 \\
+Fine-tuning & 0.884 & 0.888 & 0.901 & 0.902 & 0.900 \\
+\midrule
+Scratch training & 2.028 & 1.979 & 1.762 & 1.701 & 1.669 \\
+Fine-tuning & 1.516 & 1.508 & 1.362 & 1.339 & 1.348 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmofheat_H2-77K-2bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/hmofheat_H2-77K-2bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{H$_2$ heat of adsorption at 77 K and 2 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.849 & 0.861 & 0.880 & 0.886 & 0.890 \\
+Fine-tuning & 0.876 & 0.881 & 0.894 & 0.893 & 0.901 \\
+\midrule
+Scratch training & 0.367 & 0.349 & 0.305 & 0.299 & 0.277 \\
+Fine-tuning & 0.312 & 0.296 & 0.264 & 0.269 & 0.249 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage
+\subsection{hCOF dataset}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/cof_lowbar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/cof_lowbar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ uptake at 298 K and 5.8 bar (COFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.821 & 0.887 & 0.932 & 0.940 & 0.952 \\
+Fine-tuning & 0.912 & 0.939 & 0.962 & 0.964 & 0.976 \\
+\midrule
+Scratch training & 4.013 & 3.254 & 2.581 & 2.422 & 2.194 \\
+Fine-tuning & 2.488 & 2.139 & 1.781 & 1.719 & 1.440 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/cof_highbar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/cof_highbar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ uptake at 298 K and 65 bar (COFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.812 & 0.878 & 0.922 & 0.937 & 0.957 \\
+Fine-tuning & 0.892 & 0.934 & 0.957 & 0.966 & 0.976 \\
+\midrule
+Scratch training & 11.918 & 9.721 & 7.550 & 6.792 & 5.663 \\
+Fine-tuning & 7.936 & 6.454 & 5.245 & 4.686 & 4.070 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage
+\subsection{hPPN dataset}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ppn_1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ppn_1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ uptake at 298 K and 1 bar (PPNs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.770 & 0.796 & 0.901 & 0.910 & 0.926 \\
+Fine-tuning & 0.843 & 0.890 & 0.948 & 0.950 & 0.965 \\
+\midrule
+Scratch training & 0.456 & 0.408 & 0.281 & 0.257 & 0.240 \\
+Fine-tuning & 0.303 & 0.259 & 0.195 & 0.184 & 0.161 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ppn_65bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ppn_65bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ uptake at 298 K and 65 bar (PPNs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.863 & 0.905 & 0.958 & 0.959 & 0.970 \\
+Fine-tuning & 0.893 & 0.942 & 0.974 & 0.977 & 0.984 \\
+\midrule
+Scratch training & 7.292 & 6.158 & 4.320 & 4.112 & 3.539 \\
+Fine-tuning & 5.613 & 4.312 & 3.149 & 2.901 & 2.570 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage
+\subsection{hZEO dataset}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/zeolite_unitless_KH_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/zeolite_unitless_KH_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{ CH$_4$ (unitless) Henry coefficient at 298 K (ZEOs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.633 & 0.692 & 0.768 & 0.797 & 0.830 \\
+Fine-tuning & 0.747 & 0.778 & 0.837 & 0.866 & 0.886 \\
+\midrule
+Scratch training & 4.520 & 4.058 & 3.429 & 3.146 & 2.868 \\
+Fine-tuning & 3.615 & 3.365 & 2.758 & 2.576 & 2.336 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/zeolite_heat_of_adsorption_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/zeolite_heat_of_adsorption_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ isosteric heat of adsorption at 298 K (ZEOs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.790 & 0.853 & 0.920 & 0.935 & 0.951 \\
+Fine-tuning & 0.869 & 0.887 & 0.928 & 0.937 & 0.957 \\
+\midrule
+Scratch training & 1.037 & 0.833 & 0.594 & 0.550 & 0.469 \\
+Fine-tuning & 0.806 & 0.735 & 0.568 & 0.520 & 0.432 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage
+\subsection{CoRE 2019 dataset}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_C3H6_Selectivity_1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_C3H6_Selectivity_1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{C$_3$H$_8$/C$_3$H$_6$ selectivity at 298 K and 1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.006 & 0.257 & 0.545 & 0.641 & 0.703 \\
+Fine-tuning & 0.078 & 0.323 & 0.506 & 0.568 & 0.615 \\
+\midrule
+Scratch training & 0.180 & 0.154 & 0.118 & 0.103 & 0.088 \\
+Fine-tuning & 0.174 & 0.144 & 0.117 & 0.109 & 0.099 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_C3H6_Selectivity_infinite_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_C3H6_Selectivity_infinite_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{C$_3$H$_8$/C$_3$H$_6$ infinite dillution selectivity at 298 K (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.518 & 0.683 & 0.833 & 0.866 & 0.905 \\
+Fine-tuning & 0.564 & 0.655 & 0.830 & 0.848 & 0.892 \\
+\midrule
+Scratch training & 0.194 & 0.155 & 0.103 & 0.085 & 0.065 \\
+Fine-tuning & 0.177 & 0.152 & 0.103 & 0.096 & 0.076 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H6_loadings_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H6_loadings_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{C$_3$H$_6$ binary uptake at 298 K and 1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.612 & 0.724 & 0.799 & 0.834 & 0.879 \\
+Fine-tuning & 0.835 & 0.876 & 0.915 & 0.923 & 0.932 \\
+\midrule
+Scratch training & 0.780 & 0.656 & 0.548 & 0.504 & 0.413 \\
+Fine-tuning & 0.525 & 0.460 & 0.385 & 0.370 & 0.349 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_loadings_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_loadings_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{C$_3$H$_8$ binary uptake at 298 K and 1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.558 & 0.704 & 0.833 & 0.851 & 0.899 \\
+Fine-tuning & 0.827 & 0.876 & 0.913 & 0.931 & 0.942 \\
+\midrule
+Scratch training & 0.195 & 0.157 & 0.120 & 0.116 & 0.092 \\
+Fine-tuning & 0.128 & 0.108 & 0.091 & 0.080 & 0.074 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_TSN_S_1Bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_TSN_S_1Bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{$N_\mathrm{C_3H_8} \times \log(S_\mathrm{C_3H_8/C_3H_6})$ at 298 K and 1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.171 & 0.373 & 0.656 & 0.736 & 0.802 \\
+Fine-tuning & 0.424 & 0.573 & 0.712 & 0.770 & 0.798 \\
+\midrule
+Scratch training & 0.054 & 0.046 & 0.034 & 0.030 & 0.025 \\
+Fine-tuning & 0.044 & 0.038 & 0.030 & 0.028 & 0.024 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_Henry_298K_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H8_Henry_298K_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{C$_3$H$_8$ (log) Henry coefficient at 298 K (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & -0.072 & 0.233 & 0.476 & 0.585 & 0.752 \\
+Fine-tuning & 0.517 & 0.653 & 0.809 & 0.831 & 0.879 \\
+\midrule
+Scratch training & 0.012 & 0.009 & 0.007 & 0.006 & 0.004 \\
+Fine-tuning & 0.007 & 0.005 & 0.004 & 0.003 & 0.003 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H6_Henry_298K_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/c3h6c3h8coremof_C3H6_Henry_298K_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{C$_3$H$_6$ (log) Henry coefficient at 298 K (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & -0.625 & 0.131 & 0.420 & 0.542 & 0.772 \\
+Fine-tuning & 0.601 & 0.770 & 0.850 & 0.857 & 0.909 \\
+\midrule
+Scratch training & 0.008 & 0.005 & 0.004 & 0.004 & 0.003 \\
+Fine-tuning & 0.003 & 0.002 & 0.002 & 0.002 & 0.001 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4n2ratio-0.1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4n2ratio-0.1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$/N$_2$ selectivity and 298 K and 0.1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.548 & 0.703 & 0.762 & 0.796 & 0.831 \\
+Fine-tuning & 0.761 & 0.804 & 0.843 & 0.852 & 0.870 \\
+\midrule
+Scratch training & 0.743 & 0.573 & 0.517 & 0.449 & 0.401 \\
+Fine-tuning & 0.466 & 0.408 & 0.356 & 0.345 & 0.328 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4n2ratio-10bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4n2ratio-10bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$/N$_2$ selectivity and 298 K and 10 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.743 & 0.816 & 0.864 & 0.891 & 0.906 \\
+Fine-tuning & 0.873 & 0.901 & 0.929 & 0.939 & 0.942 \\
+\midrule
+Scratch training & 0.561 & 0.474 & 0.399 & 0.361 & 0.333 \\
+Fine-tuning & 0.363 & 0.319 & 0.276 & 0.262 & 0.249 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4n2ratio-1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4n2ratio-1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$/N$_2$ selectivity and 298 K and 1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.710 & 0.807 & 0.870 & 0.895 & 0.919 \\
+Fine-tuning & 0.883 & 0.906 & 0.932 & 0.939 & 0.948 \\
+\midrule
+Scratch training & 0.617 & 0.498 & 0.409 & 0.368 & 0.317 \\
+Fine-tuning & 0.356 & 0.323 & 0.278 & 0.262 & 0.252 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4uptake-0.1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4uptake-0.1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ binary uptake at 298 K and 0.1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.284 & 0.560 & 0.719 & 0.802 & 0.876 \\
+Fine-tuning & 0.806 & 0.865 & 0.891 & 0.903 & 0.932 \\
+\midrule
+Scratch training & 0.043 & 0.032 & 0.024 & 0.020 & 0.015 \\
+Fine-tuning & 0.019 & 0.015 & 0.013 & 0.012 & 0.011 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4uptake-10bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4uptake-10bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ binary uptake at 298 K and 10 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.500 & 0.641 & 0.744 & 0.789 & 0.842 \\
+Fine-tuning & 0.864 & 0.875 & 0.890 & 0.899 & 0.905 \\
+\midrule
+Scratch training & 0.598 & 0.518 & 0.428 & 0.378 & 0.324 \\
+Fine-tuning & 0.320 & 0.306 & 0.286 & 0.272 & 0.258 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4uptake-1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_ch4uptake-1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ binary uptake at 298 K and 1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.542 & 0.678 & 0.787 & 0.839 & 0.860 \\
+Fine-tuning & 0.875 & 0.887 & 0.906 & 0.912 & 0.920 \\
+\midrule
+Scratch training & 0.194 & 0.161 & 0.127 & 0.112 & 0.100 \\
+Fine-tuning & 0.097 & 0.091 & 0.081 & 0.078 & 0.073 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_n2uptake-0.1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_n2uptake-0.1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{N$_2$ binary uptake at 298 K and 0.1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & -0.463 & 0.166 & 0.616 & 0.679 & 0.787 \\
+Fine-tuning & 0.673 & 0.781 & 0.835 & 0.821 & 0.861 \\
+\midrule
+Scratch training & 0.009 & 0.007 & 0.005 & 0.004 & 0.003 \\
+Fine-tuning & 0.004 & 0.003 & 0.003 & 0.003 & 0.002 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_n2uptake-10bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_n2uptake-10bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{N$_2$ binary uptake at 298 K and 10 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.716 & 0.789 & 0.841 & 0.865 & 0.898 \\
+Fine-tuning & 0.882 & 0.898 & 0.913 & 0.917 & 0.921 \\
+\midrule
+Scratch training & 0.138 & 0.119 & 0.104 & 0.096 & 0.083 \\
+Fine-tuning & 0.091 & 0.084 & 0.077 & 0.076 & 0.072 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_n2uptake-1bar_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/ch4n2_n2uptake-1bar_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{N$_2$ binary uptake at 298 K and 1 bar (MOFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{1000} \\
+\midrule
+Scratch training & 0.189 & 0.548 & 0.707 & 0.769 & 0.807 \\
+Fine-tuning & 0.794 & 0.819 & 0.851 & 0.859 & 0.871 \\
+\midrule
+Scratch training & 0.041 & 0.031 & 0.024 & 0.021 & 0.019 \\
+Fine-tuning & 0.020 & 0.019 & 0.017 & 0.016 & 0.016 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage
+\subsection{CoRE COF dataset}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_H2_log_Henry_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_H2_log_Henry_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{H$_2$ log Henry coefficient at 298 K (COFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{800} \\
+\midrule
+Scratch training & 0.734 & 0.777 & 0.873 & 0.914 & 0.925 \\
+Fine-tuning & 0.853 & 0.877 & 0.901 & 0.901 & 0.899 \\
+\midrule
+Scratch training & 0.200 & 0.180 & 0.135 & 0.109 & 0.097 \\
+Fine-tuning & 0.143 & 0.130 & 0.110 & 0.103 & 0.098 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_O2_log_Henry_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_O2_log_Henry_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{O$_2$ log Henry coefficient at 298 K (COFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{800} \\
+\midrule
+Scratch training & 0.480 & 0.664 & 0.812 & 0.848 & 0.871 \\
+Fine-tuning & 0.784 & 0.823 & 0.883 & 0.881 & 0.882 \\
+\midrule
+Scratch training & 0.238 & 0.187 & 0.139 & 0.123 & 0.107 \\
+Fine-tuning & 0.149 & 0.136 & 0.109 & 0.104 & 0.095 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_N2_log_Henry_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_N2_log_Henry_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{N$_2$ log Henry coefficient at 298 K (COFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{800} \\
+\midrule
+Scratch training & 0.423 & 0.623 & 0.810 & 0.844 & 0.874 \\
+Fine-tuning & 0.747 & 0.786 & 0.874 & 0.871 & 0.876 \\
+\midrule
+Scratch training & 0.233 & 0.188 & 0.134 & 0.117 & 0.100 \\
+Fine-tuning & 0.150 & 0.138 & 0.105 & 0.100 & 0.091 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_CO2_log_Henry_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_CO2_log_Henry_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CO$_2$ log Henry coefficient at 298 K (COFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{800} \\
+\midrule
+Scratch training & 0.482 & 0.608 & 0.720 & 0.813 & 0.795 \\
+Fine-tuning & 0.768 & 0.803 & 0.854 & 0.867 & 0.877 \\
+\midrule
+Scratch training & 0.494 & 0.427 & 0.363 & 0.304 & 0.298 \\
+Fine-tuning & 0.340 & 0.308 & 0.269 & 0.251 & 0.240 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_CH4_log_Henry_test_R2Score.pdf}
+    \includegraphics[width=0.6\textwidth]{fig/few_shot/corecof_CH4_log_Henry_test_MeanAbsoluteError.pdf}
+    \caption{Comparison of sample efficiency between training from scratch and
+    fine-tuning. Results are shown as mean $\pm$ standard deviation of different
+    runs.}
+\end{figure}
+
+\begin{table}[!h]
+\centering
+\begin{tabularx}{\textwidth}{Xccccc}
+\toprule
+\textbf{CH$_4$ log Henry coefficient at 298 K (COFs)} & \textbf{50} & \textbf{100} & \textbf{300} & \textbf{500} & \textbf{800} \\
+\midrule
+Scratch training & 0.533 & 0.664 & 0.867 & 0.887 & 0.905 \\
+Fine-tuning & 0.772 & 0.818 & 0.909 & 0.910 & 0.921 \\
+\midrule
+Scratch training & 0.295 & 0.240 & 0.159 & 0.146 & 0.132 \\
+Fine-tuning & 0.191 & 0.170 & 0.131 & 0.125 & 0.117 \\
+\bottomrule
+\end{tabularx}
+
+\caption{Average $R^2$ (top) and MAE (bottom) of different runs is reported.}
+\end{table}
+
+\clearpage

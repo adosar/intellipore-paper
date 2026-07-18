@@ -1,0 +1,8 @@
+{
+    "null": {
+        "0": {
+            "test_R2Score": 0.8988455533981323,
+            "test_MeanAbsoluteError": 0.34654009342193604
+        }
+    }
+}

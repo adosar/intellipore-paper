@@ -1,0 +1,175 @@
+data_config:
+  hCOF:
+    path_to_X: data/hCOF/voxels_data
+    path_to_Y: data/hCOF/standardized_clean.csv
+    index_col: name
+    labels:
+    - void fraction [widom]
+    - density [kg/m^3]
+    - heat desorption high P [kJ/mol]
+    - excess methane uptake high P [mol/kg]
+    - heat desorption low P [kJ/mol]
+    - excess methane uptake low P [mol/kg]
+    - surface area [m^2/g]
+    - deliverable capacity [v STP/v]
+    - largest included sphere diameter [A]
+    - largest free sphere diameter [A]
+    - largest included sphere along free sphere path diameter [A]
+  hMOF:
+    path_to_X: data/MOFXDB_hMOF/voxels_data
+    path_to_Y: data/MOFXDB_hMOF/standardized_clean.csv
+    index_col: name
+    labels:
+    - lcd
+    - pld
+    - void_fraction
+    - surface_area_m2g
+    - surface_area_m2cm3
+    - CarbonDioxide_1_298K_0.01bar_mol/kg
+    - CarbonDioxide_1_298K_0.1bar_mol/kg
+    - CarbonDioxide_1_298K_0.05bar_mol/kg
+    - CarbonDioxide_1_298K_0.5bar_mol/kg
+    - Nitrogen_1_298K_0.09bar_mol/kg
+    - Methane_1_298K_4.5bar_mol/kg
+    - Methane_1_298K_0.05bar_mol/kg
+    - Methane_1_298K_0.5bar_mol/kg
+    - Methane_1_298K_0.9bar_mol/kg
+    - Methane_1_298K_35bar_cm3(STP)/cm3
+    - Xenon_0.2_273K_1bar_mol/kg
+    - Krypton_0.8_273K_1bar_mol/kg
+    - Xenon_0.2_273K_5bar_mol/kg
+    - Krypton_0.8_273K_5bar_mol/kg
+    - Hydrogen_1_77K_100bar_g/l
+    - CarbonDioxide_1_298K_0.01bar_kj/mol
+    - CarbonDioxide_1_298K_0.1bar_kj/mol
+    - CarbonDioxide_1_298K_0.05bar_kj/mol
+    - CarbonDioxide_1_298K_0.5bar_kj/mol
+    - Hydrogen_1_77K_100bar_kj/mol
+    - Methane_1_298K_35bar_kj/mol
+    - Methane_1_298K_2.5bar_kj/mol
+    - Methane_1_298K_4.5bar_kj/mol
+    - Methane_1_298K_0.05bar_kj/mol
+    - Methane_1_298K_0.5bar_kj/mol
+    - Methane_1_298K_0.9bar_kj/mol
+  Tob:
+    path_to_X: data/MOFXDB_Tobacco/voxels_data
+    path_to_Y: data/MOFXDB_Tobacco/standardized_clean.csv
+    index_col: name
+    labels:
+    - lcd
+    - pld
+    - void_fraction
+    - surface_area_m2g
+    - surface_area_m2cm3
+    - Xenon_0.2_298K_1bar_mmol/g
+    - Krypton_0.8_298K_1bar_mmol/g
+    - Xenon_0.2_298K_5bar_mmol/g
+    - Krypton_0.8_298K_5bar_mmol/g
+    - Methane_1_298K_65bar_cm3(STP)/cm3
+    - Methane_1_298K_100bar_cm3(STP)/cm3
+    - Methane_1_298K_6bar_cm3(STP)/cm3
+    - Hydrogen_1_77K_100bar_g/l
+    - Hydrogen_1_77K_6bar_g/l
+    - Hydrogen_1_130K_100bar_g/l
+    - Hydrogen_1_200K_100bar_g/l
+    - Hydrogen_1_243K_100bar_g/l
+    - Hydrogen_1_160K_5bar_g/l
+    - Methane_1_298K_6bar_kj/mol
+    - Hydrogen_1_77K_6bar_kj/mol
+    - Hydrogen_1_160K_5bar_kj/mol
+  UO:
+    path_to_X: data/UO/voxels_data
+    path_to_Y: data/UO/standardized_clean.csv
+    index_col: name
+    labels:
+    - CO2_uptake_P0.15bar_T298K [mmol/g]
+    - heat_adsorption_CO2_P0.15bar_T298K [kcal/mol]
+    - excess_CO2_uptake_P0.15bar_T298K [mmol/g]
+    - CO2_uptake_P0.10bar_T363K [mmol/g]
+    - heat_adsorption_CO2_P0.10bar_T363K [kcal/mol]
+    - excess_CO2_uptake_P0.10bar_T363K [mmol/g]
+    - CO2_uptake_P0.70bar_T413K [mmol/g]
+    - heat_adsorption_CO2_P0.70bar_T413K [kcal/mol]
+    - excess_CO2_uptake_P0.70bar_T413K [mmol/g]
+    - working_capacity_vacuum_swing [mmol/g]
+    - working_capacity_temperature_swing [mmol/g]
+    - CO2_binary_uptake_P0.15bar_T298K [mmol/g]
+    - heat_adsorption_CO2_binary_P0.15bar_T298K [kcal/mol]
+    - excess_CO2_binary_uptake_P0.15bar_T298K [mmol/g]
+    - N2_binary_uptake_P0.85bar_T298K [mmol/g]
+    - heat_adsorption_N2_binary_P0.85bar_T298K [kcal/mol]
+    - excess_N2_binary_uptake_P0.85bar_T298K [mmol/g]
+    - surface_area [m^2/g]
+    - void_fraction
+    - void_volume [cm^3/g]
+    - largest_free_sphere_diameter [A]
+    - largest_included_sphere_along_free_sphere_path_diameter [A]
+    - largest_included_sphere_diameter [A]
+    - log_CO2/N2_selectivity
+  C19:
+    path_to_X: data/MOFXDB_CoRE2019/voxels_data
+    path_to_Y: data/MOFXDB_CoRE2019/standardized_clean.csv
+    index_col: name
+    labels:
+    - pld
+    - lcd
+    - void_fraction
+    - surface_area_m2g
+    - surface_area_m2cm3
+    - Argon_1_87K_0.001Pa_cm3(STP)/g
+    - Argon_1_87K_0.01Pa_cm3(STP)/g
+    - Argon_1_87K_0.1Pa_cm3(STP)/g
+    - Argon_1_87K_1Pa_cm3(STP)/g
+    - Argon_1_87K_10Pa_cm3(STP)/g
+    - Argon_1_87K_100Pa_cm3(STP)/g
+    - Argon_1_87K_1000Pa_cm3(STP)/g
+    - Argon_1_87K_2000Pa_cm3(STP)/g
+    - Argon_1_87K_4000Pa_cm3(STP)/g
+    - Argon_1_87K_6000Pa_cm3(STP)/g
+    - Argon_1_87K_8000Pa_cm3(STP)/g
+    - Argon_1_87K_10000Pa_cm3(STP)/g
+    - Argon_1_87K_12000Pa_cm3(STP)/g
+    - Argon_1_87K_14000Pa_cm3(STP)/g
+    - Argon_1_87K_16000Pa_cm3(STP)/g
+    - Argon_1_87K_18000Pa_cm3(STP)/g
+    - Argon_1_87K_20000Pa_cm3(STP)/g
+    - Argon_1_87K_24000Pa_cm3(STP)/g
+    - Argon_1_87K_28000Pa_cm3(STP)/g
+    - Argon_1_87K_30000Pa_cm3(STP)/g
+    - Argon_1_87K_32000Pa_cm3(STP)/g
+    - Argon_1_87K_36000Pa_cm3(STP)/g
+    - Argon_1_87K_40000Pa_cm3(STP)/g
+    - Argon_1_87K_50000Pa_cm3(STP)/g
+    - Argon_1_87K_60000Pa_cm3(STP)/g
+    - Argon_1_87K_70000Pa_cm3(STP)/g
+    - Argon_1_87K_80000Pa_cm3(STP)/g
+    - Argon_1_87K_90000Pa_cm3(STP)/g
+    - Argon_1_87K_100000Pa_cm3(STP)/g
+transform_train:
+  class_path: torchvision.transforms.v2.Compose
+  init_args:
+    transforms:
+    - class_path: retnext.transforms.AddChannelDim
+    - class_path: retnext.transforms.ClipScaleVoxels
+      init_args:
+        value: 5000.0
+    - class_path: torchvision.transforms.v2.RandomChoice
+      init_args:
+        transforms:
+        - class_path: torch.nn.Identity
+        - class_path: retnext.transforms.RandomRotate90
+        - class_path: retnext.transforms.RandomFlip
+        - class_path: retnext.transforms.RandomReflect
+        p: null
+transform_eval:
+  class_path: torchvision.transforms.v2.Compose
+  init_args:
+    transforms:
+    - class_path: retnext.transforms.AddChannelDim
+    - class_path: retnext.transforms.ClipScaleVoxels
+      init_args:
+        value: 5000.0
+collate_fn: null
+train_batch_size: 32
+eval_batch_size: 256
+_instantiator: lightning.pytorch.cli.instantiate_module
