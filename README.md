@@ -1,6 +1,6 @@
 ## About
 
-This repository contains the code for the development of *IntelliPore: A Foundation Model for Gas Adsorption in Porous Materials*.
+Repository for the development of *IntelliPore: A Foundation Model for Gas Adsorption in Porous Materials*.
 
 By leveraging 12.5 million publicly available adsorption data from MOFs and COFs, the model provides:
 
