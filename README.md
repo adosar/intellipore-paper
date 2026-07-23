@@ -2,12 +2,12 @@
 
 Repository for the development of *IntelliPore: A Foundation Model for Gas Adsorption in Porous Materials*.
 
-By leveraging 12.5 million publicly available adsorption data from MOFs and COFs, the model provides:
+By leveraging 12.5 million publicly available adsorption data from MOFs and COFs, IntelliPore provides:
 
 * **Transferable representations** across adsorption tasks and porous material classes
 * **Few-shot adaptation**, substantially reducing the amount of of required downstream labeled data
-* **State-of-the-art predictive performance** with exceptional parameter
-  efficiency (0.86M parameters)
+* **State-of-the-art performance** for gas adsorption property prediction
+* **Exceptional parameter efficiency** with only 0.86 million parameters, enabling efficient fine-tuning and inference
 
 ## Resources
 
