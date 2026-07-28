@@ -11,8 +11,8 @@ By leveraging 12.5 million publicly available adsorption data from MOFs and COFs
 
 ## Resources
 
-* The pretrained model is distributed through the [AIdsorb package](https://aidsorb.readthedocs.io/en/stable/_autosummary/aidsorb.modules.voxels.html#aidsorb.modules.voxels.IntelliPore)
-* A complete example to fine-tune the model is available at the [AIdsorb Gallery](https://aidsorb.readthedocs.io/en/stable/auto_examples/finetune.html)
+* The pretrained model is distributed through the [AIdsorb package](https://aidsorb.readthedocs.io/en/latest/_autosummary/aidsorb.modules.voxels.html#aidsorb.modules.voxels.IntelliPore)
+* A complete example to fine-tune the model is available at the [AIdsorb Gallery](https://aidsorb.readthedocs.io/en/latest/auto_examples/finetune.html)
 * All the fine-tuned models from the benchmarks are available at: https://github.com/adosar/intellipore-models
 * Online demo is available at: https://aidsorb-online.streamlit.app/Predict_with_energy_images
 
