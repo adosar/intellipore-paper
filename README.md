@@ -2,6 +2,10 @@
 
 Repository for the development of *IntelliPore: A Foundation Model for Gas Adsorption in Porous Materials*.
 
+<p align="center">
+  <img alt="RetNeXt feature maps" src="https://raw.githubusercontent.com/adosar/intellipore-paper/master/images/toc.png" width="65%"/>
+</p>
+
 By leveraging 12.5 million publicly available adsorption data from MOFs and COFs, IntelliPore provides:
 
 * **Transferable representations** across adsorption tasks and porous material classes
