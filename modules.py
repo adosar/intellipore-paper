@@ -1,5 +1,12 @@
 r"""
-This module provides PyTorch modules for voxel-based processing.
+This module contains a copy of the model architecture from the intellipore
+branch of the RetNeXt repository: https://github.com/adosar/retnext
+
+The code is included here so that the architecture can be inspected
+without requiring RetNeXt to be installed as an external dependency.
+
+The source code was copied from:
+https://github.com/adosar/retnext/blob/intellipore/src/retnext/modules.py
 """
 
 import torch

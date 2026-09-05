@@ -29,3 +29,4 @@ tensorboard-data-server==0.7.2
 torch==2.6.0
 torchmetrics==1.9.0
 torchvision==0.21.0
+git+https://github.com/adosar/retnext.git@intellipore
